@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Google Search" timestamp="2022-06-21T17:11:16" time="3.754" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Google Search"/>
+      <property name="capabilities" value="chrome.102_0_5005_115.macosx"/>
+      <property name="featureFile" value="./test/features/demo/demo.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.102_0_5005_115.macosx.Google Search" name="Searching for wdio" time="3.74">
+      <system-out><![CDATA[
+✅ Given Google url is open✅ When Search with wdio✅ Then Click on first search result✅ Then URL should match https://webdriver.io/
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
