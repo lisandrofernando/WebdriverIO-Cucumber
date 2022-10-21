@@ -2,8 +2,8 @@ import { Given, When, Then } from "@wdio/cucumber-framework";
 import chai from "chai";
 
 Given(/^Google url is open$/, async function () {
-  browser.url("https://www.google.com.mx/");
-  browser.pause(6000);
+ await browser.url("https://www.google.com.mx/");
+ await browser.pause(6000);
 });
 
 When(/^Search with (.*)$/, async function (searchItem) {

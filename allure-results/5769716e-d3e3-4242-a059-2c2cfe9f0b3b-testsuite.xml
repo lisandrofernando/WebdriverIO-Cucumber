@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666213084777' stop='1666213087221'>
+    <name>Google Search: Searching for wdio</name>
+    <title>Google Search: Searching for wdio</title>
+    <test-cases>
+        <test-case start='1666213084777' status='passed' stop='1666213084778'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666213084778' status='passed' stop='1666213084820'>
+            <name>Given Google url is open</name>
+            <title>Given Google url is open</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1666213084779' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='86be8c48-94bb-42c0-830e-2444ebe5e8b9-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1666213084820' status='passed' stop='1666213087166'>
+            <name>When Search with wdio</name>
+            <title>When Search with wdio</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1666213084821' status='passed' stop='1666213085598'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='da199ca8-492f-4a4d-8a99-0526b13c9621-attachment.json' type='application/json' size='52'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666213085606' status='passed' stop='1666213085620'>
+                    <name>POST /session/:sessionId/element/f699a888-f9b6-44aa-ad4e-40a9c97203ae/clear</name>
+                    <title>POST /session/:sessionId/element/f699a888-f9b6-44aa-ad4e-40a9c97203ae/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1666213085622' status='passed' stop='1666213085666'>
+                    <name>POST /session/:sessionId/element/f699a888-f9b6-44aa-ad4e-40a9c97203ae/value</name>
+                    <title>POST /session/:sessionId/element/f699a888-f9b6-44aa-ad4e-40a9c97203ae/value</title>
+                    <attachments>
+                        <attachment title='Request' source='681edfef-41e9-4f36-8e7f-c2a3f802edaf-attachment.json' type='application/json' size='20'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666213085666' status='passed' stop='1666213087163'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='5111664f-05e5-420a-906b-7eccf135ade8-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666213087163' status='passed' stop='1666213087165'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='6327b851-ad86-4073-8794-e60f163ed7a1-attachment.json' type='application/json' size='83'/>
+            </attachments>
+        </test-case>
+        <test-case start='1666213087166' status='passed' stop='1666213087177'>
+            <name>Then Click on first search result</name>
+            <title>Then Click on first search result</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1666213087167' status='passed' stop='1666213087174'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='85a27eb4-b7b1-493b-9588-394ed3bd3ff1-attachment.json' type='application/json' size='42'/>
+                        <attachment title='Response' source='aaedfb79-8871-490d-aaa7-395c6dd37fce-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666213087176' status='undefined'>
+                    <name>POST /session/:sessionId/element/ab87f8f8-d960-466b-ab51-ae29de3093ee/click</name>
+                    <title>POST /session/:sessionId/element/ab87f8f8-d960-466b-ab51-ae29de3093ee/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1666213087177' status='failed' stop='1666213087219'>
+            <name>Then URL should match https://webdriver.io/</name>
+            <title>Then URL should match https://webdriver.io/</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1666213087177' status='passed' stop='1666213087208'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='5d2db46d-5c22-4cd3-a2f0-7a7fb865908f-attachment.json' type='application/json' size='265'/>
+            </attachments>
+            <failure>
+                <message>AssertionError</message>
+                <stack-trace>AssertionError
+                    + expected - actual
+                
+                    -https://www.google.com.mx/search?q=wdio&amp;source=hp&amp;ei=3WRQY7GvCNigkPIPuZmF4Ak&amp;iflsig=AJiK0e8AAAAAY1By7WO0v9aoEtH8HlueKYU4c8Zn7Zmv&amp;ved=0ahUKEwjxkb24l-36AhVYEEQIHblMAZwQ4dUDCAg&amp;uact=5&amp;oq=wdio&amp;gs_lcp=Cgdnd3Mtd2l6EANQAFgDYApoAHAAeACAAQCIAQCSAQCYAQCgAQE&amp;sclient=gws-wiz
+                    +https://webdriver.io/
+                
+                    at World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/demo.ts:24:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666213087219' status='passed' stop='1666213087219'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
