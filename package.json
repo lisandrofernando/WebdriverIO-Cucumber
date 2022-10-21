@@ -17,6 +17,10 @@
         "wdio-chromedriver-service": "^7.3.2"
     },
     "scripts": {
-        "wdio": "wdio run test/wdio.conf.ts"
+        "wdio": "npx wdio run wdio.conf.ts",
+        "GenerateReport": "allure generate results --clean && allure open"
+    },
+    "dependencies": {
+        "allure-commandline": "^2.18.1"
     }
 }

@@ -1,1 +1,1 @@
-To run this repo run: npx wdio wdio.conf.ts
+To run this repo run: npm run wdio

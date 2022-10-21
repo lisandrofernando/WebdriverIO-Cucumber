@@ -164,7 +164,8 @@ export const config: WebdriverIO.Config = {
                  [
                  'allure',
                  {
-                     outputDir: 'allure-results',
+                     outputDir: 'results',
+                     disableWebdriverScreenshotsReporting: false,
                  },
                 ],
 
@@ -295,8 +296,12 @@ export const config: WebdriverIO.Config = {
      * @param {number}             result.duration  duration of scenario in milliseconds
      * @param {Object}             context          Cucumber World object
      */
-    // afterStep: function (step, scenario, result, context) {
-    // },
+    afterStep: async function (step, scenario,{ error, duration, passed }, context) {
+            if (error) {
+              await browser.takeScreenshot();
+            }
+          },
+    
     /**
      *
      * Runs after a Cucumber Scenario.
@@ -361,4 +366,4 @@ export const config: WebdriverIO.Config = {
     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
-}
+        }
