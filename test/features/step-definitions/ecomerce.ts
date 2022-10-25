@@ -9,7 +9,6 @@ Given(/^Swag Labs url is open$/, async function () {
     console.log(`Before opening browser...`);
     await browser.url("https://www.saucedemo.com/")
     console.log(`After opening browser...`);
-
     await browser.pause(1000);
   });
 
