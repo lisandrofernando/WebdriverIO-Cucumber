@@ -1,0 +1,166 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669330886131' stop='1669330906611'>
+    <name>Swag Labs Ecomerce</name>
+    <title>Swag Labs Ecomerce</title>
+    <test-cases>
+        <test-case start='1669330886137' status='broken' stop='1669330892906'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669330886139' status='passed' stop='1669330889552'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330889552' status='passed' stop='1669330890784'>
+                    <name>When User login with standard_user and secret_sauce</name>
+                    <title>When User login with standard_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330890785' status='passed' stop='1669330891870'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330891870' status='passed' stop='1669330892904'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330892904' status='broken' stop='1669330892906'>
+                    <name>Then Click the inventory Sauce Labs Backpack</name>
+                    <title>Then Click the inventory Sauce Labs Backpack</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "Click the inventory Sauce Labs Backpack" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Click the inventory Sauce Labs Backpack" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/demo/ecomerce.feature):1:1
+                	at Scenario(Login to the app):4:1
+                	at Step(Click the inventory &lt;product>):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669330892908' status='broken' stop='1669330897238'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669330892909' status='passed' stop='1669330893966'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330893966' status='passed' stop='1669330895125'>
+                    <name>When User login with problem_user and secret_sauce</name>
+                    <title>When User login with problem_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330895126' status='passed' stop='1669330896202'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330896203' status='passed' stop='1669330897236'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330897237' status='broken' stop='1669330897238'>
+                    <name>Then Click the inventory Sauce Labs Bike Light</name>
+                    <title>Then Click the inventory Sauce Labs Bike Light</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "Click the inventory Sauce Labs Bike Light" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Click the inventory Sauce Labs Bike Light" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/demo/ecomerce.feature):1:1
+                	at Scenario(Login to the app):4:1
+                	at Step(Click the inventory &lt;product>):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669330897239' status='broken' stop='1669330906609'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669330897241' status='passed' stop='1669330898280'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330898280' status='passed' stop='1669330899509'>
+                    <name>When User login with performance_glitch_user and secret_sauce</name>
+                    <title>When User login with performance_glitch_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330899509' status='passed' stop='1669330905577'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330905577' status='passed' stop='1669330906608'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669330906609' status='broken' stop='1669330906609'>
+                    <name>Then Click the inventory Sauce Labs Fleece Jacket</name>
+                    <title>Then Click the inventory Sauce Labs Fleece Jacket</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "Click the inventory Sauce Labs Fleece Jacket" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "Click the inventory Sauce Labs Fleece Jacket" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/demo/ecomerce.feature):1:1
+                	at Scenario(Login to the app):4:1
+                	at Step(Click the inventory &lt;product>):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

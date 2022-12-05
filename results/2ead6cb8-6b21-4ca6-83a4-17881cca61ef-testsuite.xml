@@ -1,0 +1,283 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669762013756' stop='1669762028412'>
+    <name>Swag Labs Ecomerce</name>
+    <title>Swag Labs Ecomerce</title>
+    <test-cases>
+        <test-case start='1669762013766' status='broken' stop='1669762016677'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669762013767' status='passed' stop='1669762015234'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762015234' status='broken' stop='1669762016677'>
+                    <name>When User login with standard_user and secret_sauce and click submit</name>
+                    <title>When User login with standard_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c96d4b83-de30-4102-8771-0c933dc98da9-attachment.png' type='image/png' size='172684'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669762016677' status='canceled' stop='1669762016677'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762016677' status='canceled' stop='1669762016677'>
+                    <name>Then Click the inventory Sauce Labs Backpack</name>
+                    <title>Then Click the inventory Sauce Labs Backpack</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: loginPage_1.default.clickLoginButton is not a function</message>
+                <stack-trace>TypeError: loginPage_1.default.clickLoginButton is not a function
+                    at World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669762016678' status='broken' stop='1669762019047'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669762016678' status='passed' stop='1669762017702'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762017702' status='broken' stop='1669762019047'>
+                    <name>When User login with problem_user and secret_sauce and click submit</name>
+                    <title>When User login with problem_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e79d50c8-4a2d-4b6a-97f5-659eb498cd35-attachment.png' type='image/png' size='172426'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669762019047' status='canceled' stop='1669762019047'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762019047' status='canceled' stop='1669762019047'>
+                    <name>Then Click the inventory Sauce Labs Bike Light</name>
+                    <title>Then Click the inventory Sauce Labs Bike Light</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: loginPage_1.default.clickLoginButton is not a function</message>
+                <stack-trace>TypeError: loginPage_1.default.clickLoginButton is not a function
+                    at World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669762019047' status='broken' stop='1669762021389'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669762019047' status='passed' stop='1669762020077'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762020077' status='broken' stop='1669762021389'>
+                    <name>When User login with performance_glitch_user and secret_sauce and click submit</name>
+                    <title>When User login with performance_glitch_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='01d316ca-9e78-4cb2-9643-278bb86eb22b-attachment.png' type='image/png' size='176555'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669762021389' status='canceled' stop='1669762021389'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762021389' status='canceled' stop='1669762021390'>
+                    <name>Then Click the inventory Sauce Labs Fleece Jacket</name>
+                    <title>Then Click the inventory Sauce Labs Fleece Jacket</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: loginPage_1.default.clickLoginButton is not a function</message>
+                <stack-trace>TypeError: loginPage_1.default.clickLoginButton is not a function
+                    at World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669762021390' status='broken' stop='1669762023749'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669762021390' status='passed' stop='1669762022436'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762022437' status='broken' stop='1669762023749'>
+                    <name>When User login with standard_user and secret_sauce and click submit</name>
+                    <title>When User login with standard_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7e6b2efe-324f-41cd-9229-16d45bafb958-attachment.png' type='image/png' size='172684'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669762023749' status='canceled' stop='1669762023749'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762023749' status='canceled' stop='1669762023749'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: loginPage_1.default.clickLoginButton is not a function</message>
+                <stack-trace>TypeError: loginPage_1.default.clickLoginButton is not a function
+                    at World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669762023749' status='broken' stop='1669762026089'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669762023750' status='passed' stop='1669762024769'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762024769' status='broken' stop='1669762026089'>
+                    <name>When User login with problem_user and secret_sauce and click submit</name>
+                    <title>When User login with problem_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9745300d-bba7-4277-b740-af2a07c2d2be-attachment.png' type='image/png' size='172426'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669762026089' status='canceled' stop='1669762026089'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762026089' status='canceled' stop='1669762026089'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: loginPage_1.default.clickLoginButton is not a function</message>
+                <stack-trace>TypeError: loginPage_1.default.clickLoginButton is not a function
+                    at World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669762026090' status='broken' stop='1669762028411'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669762026090' status='passed' stop='1669762027104'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762027104' status='broken' stop='1669762028411'>
+                    <name>When User login with performance_glitch_user and secret_sauce and click submit</name>
+                    <title>When User login with performance_glitch_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='76446e68-0534-456e-8cd0-e41ef704f585-attachment.png' type='image/png' size='176555'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669762028411' status='canceled' stop='1669762028411'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669762028412' status='canceled' stop='1669762028412'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: loginPage_1.default.clickLoginButton is not a function</message>
+                <stack-trace>TypeError: loginPage_1.default.clickLoginButton is not a function
+                    at World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

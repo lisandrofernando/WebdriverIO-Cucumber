@@ -1,0 +1,295 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669740977934' stop='1669741033571'>
+    <name>Swag Labs Ecomerce</name>
+    <title>Swag Labs Ecomerce</title>
+    <test-cases>
+        <test-case start='1669740977943' status='broken' stop='1669740985877'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669740977944' status='passed' stop='1669740979251'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740979251' status='broken' stop='1669740985877'>
+                    <name>When User login with standard_user and secret_sauce and click submit</name>
+                    <title>When User login with standard_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e1e44248-2dfb-4da8-a758-28ddde209eeb-attachment.png' type='image/png' size='1482911'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669740985877' status='canceled' stop='1669740985877'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740985877' status='canceled' stop='1669740985877'>
+                    <name>Then Click the inventory Sauce Labs Backpack</name>
+                    <title>Then Click the inventory Sauce Labs Backpack</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("[data-test="login-button"]") still not clickable after 5000ms</message>
+                <stack-trace>Error: element ("[data-test="login-button"]") still not clickable after 5000ms
+                    at async LogingPage.Click (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:12:9)
+                    at async LogingPage.clickLoginButton (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:28:4)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669740985878' status='broken' stop='1669740993398'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669740985878' status='passed' stop='1669740986901'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740986901' status='broken' stop='1669740993398'>
+                    <name>When User login with problem_user and secret_sauce and click submit</name>
+                    <title>When User login with problem_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='542dfd81-3053-43db-9d86-ac8e1f3e12ab-attachment.png' type='image/png' size='859547'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669740993398' status='canceled' stop='1669740993398'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740993398' status='canceled' stop='1669740993398'>
+                    <name>Then Click the inventory Sauce Labs Bike Light</name>
+                    <title>Then Click the inventory Sauce Labs Bike Light</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("[data-test="login-button"]") still not clickable after 5000ms</message>
+                <stack-trace>Error: element ("[data-test="login-button"]") still not clickable after 5000ms
+                    at async LogingPage.Click (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:12:9)
+                    at async LogingPage.clickLoginButton (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:28:4)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669740993399' status='broken' stop='1669741005943'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669740993399' status='passed' stop='1669740994431'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740994431' status='broken' stop='1669741005943'>
+                    <name>When User login with performance_glitch_user and secret_sauce and click submit</name>
+                    <title>When User login with performance_glitch_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2b69d1bc-6cca-4006-bb6c-9acd4865eca0-attachment.png' type='image/png' size='1482911'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669741005943' status='canceled' stop='1669741005943'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669741005943' status='canceled' stop='1669741005943'>
+                    <name>Then Click the inventory Sauce Labs Fleece Jacket</name>
+                    <title>Then Click the inventory Sauce Labs Fleece Jacket</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("[data-test="login-button"]") still not clickable after 5000ms</message>
+                <stack-trace>Error: element ("[data-test="login-button"]") still not clickable after 5000ms
+                    at async LogingPage.Click (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:12:9)
+                    at async LogingPage.clickLoginButton (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:28:4)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669741005943' status='broken' stop='1669741013519'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669741005943' status='passed' stop='1669741006967'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669741006968' status='broken' stop='1669741013519'>
+                    <name>When User login with standard_user and secret_sauce and click submit</name>
+                    <title>When User login with standard_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e732e4e1-2c27-485a-8522-dc2cfb8431ae-attachment.png' type='image/png' size='1482911'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669741013519' status='canceled' stop='1669741013519'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669741013519' status='canceled' stop='1669741013519'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("[data-test="login-button"]") still not clickable after 5000ms</message>
+                <stack-trace>Error: element ("[data-test="login-button"]") still not clickable after 5000ms
+                    at async LogingPage.Click (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:12:9)
+                    at async LogingPage.clickLoginButton (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:28:4)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669741013519' status='broken' stop='1669741020994'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669741013519' status='passed' stop='1669741014537'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669741014537' status='broken' stop='1669741020994'>
+                    <name>When User login with problem_user and secret_sauce and click submit</name>
+                    <title>When User login with problem_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='79c6e7b4-e65b-4210-b584-ad001662ba39-attachment.png' type='image/png' size='859547'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669741020994' status='canceled' stop='1669741020994'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669741020994' status='canceled' stop='1669741020994'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("[data-test="login-button"]") still not clickable after 5000ms</message>
+                <stack-trace>Error: element ("[data-test="login-button"]") still not clickable after 5000ms
+                    at async LogingPage.Click (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:12:9)
+                    at async LogingPage.clickLoginButton (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:28:4)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669741020994' status='broken' stop='1669741033570'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669741020994' status='passed' stop='1669741022015'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669741022015' status='broken' stop='1669741033570'>
+                    <name>When User login with performance_glitch_user and secret_sauce and click submit</name>
+                    <title>When User login with performance_glitch_user and secret_sauce and click submit</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f9952756-e822-4026-9a70-eec061a44ebf-attachment.png' type='image/png' size='1482911'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669741033570' status='canceled' stop='1669741033571'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669741033571' status='canceled' stop='1669741033571'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("[data-test="login-button"]") still not clickable after 5000ms</message>
+                <stack-trace>Error: element ("[data-test="login-button"]") still not clickable after 5000ms
+                    at async LogingPage.Click (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:12:9)
+                    at async LogingPage.clickLoginButton (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:28:4)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

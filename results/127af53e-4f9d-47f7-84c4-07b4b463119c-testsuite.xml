@@ -1,0 +1,310 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669740705509' stop='1669740736748'>
+    <name>Swag Labs Ecomerce</name>
+    <title>Swag Labs Ecomerce</title>
+    <test-cases>
+        <test-case start='1669740705518' status='broken' stop='1669740713538'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669740705519' status='passed' stop='1669740706814'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740706814' status='broken' stop='1669740713538'>
+                    <name>When User login with standard_user and secret_sauce and login</name>
+                    <title>When User login with standard_user and secret_sauce and login</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='83e88538-648a-49f5-8834-49281a6258b2-attachment.png' type='image/png' size='1482911'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669740713538' status='canceled' stop='1669740713538'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740713538' status='canceled' stop='1669740713538'>
+                    <name>Then Click the inventory Sauce Labs Backpack</name>
+                    <title>Then Click the inventory Sauce Labs Backpack</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("[data-test="login-button"]") still not clickable after 5000ms</message>
+                <stack-trace>Error: element ("[data-test="login-button"]") still not clickable after 5000ms
+                    at async LogingPage.Click (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:12:9)
+                    at async LogingPage.clickLoginButton (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:28:4)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669740713539' status='broken' stop='1669740721070'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669740713539' status='passed' stop='1669740714581'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740714582' status='broken' stop='1669740721070'>
+                    <name>When User login with problem_user and secret_sauce and login</name>
+                    <title>When User login with problem_user and secret_sauce and login</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6f1ab532-796f-4c00-8ac6-13387377e078-attachment.png' type='image/png' size='859547'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669740721071' status='canceled' stop='1669740721071'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740721071' status='canceled' stop='1669740721071'>
+                    <name>Then Click the inventory Sauce Labs Bike Light</name>
+                    <title>Then Click the inventory Sauce Labs Bike Light</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("[data-test="login-button"]") still not clickable after 5000ms</message>
+                <stack-trace>Error: element ("[data-test="login-button"]") still not clickable after 5000ms
+                    at async LogingPage.Click (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:12:9)
+                    at async LogingPage.clickLoginButton (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:28:4)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669740721072' status='broken' stop='1669740733653'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669740721072' status='passed' stop='1669740722114'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740722114' status='broken' stop='1669740733653'>
+                    <name>When User login with performance_glitch_user and secret_sauce and login</name>
+                    <title>When User login with performance_glitch_user and secret_sauce and login</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='419e1292-2182-4f95-990f-bf92ad7ad5b3-attachment.png' type='image/png' size='1482911'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669740733653' status='canceled' stop='1669740733653'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740733653' status='canceled' stop='1669740733653'>
+                    <name>Then Click the inventory Sauce Labs Fleece Jacket</name>
+                    <title>Then Click the inventory Sauce Labs Fleece Jacket</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("[data-test="login-button"]") still not clickable after 5000ms</message>
+                <stack-trace>Error: element ("[data-test="login-button"]") still not clickable after 5000ms
+                    at async LogingPage.Click (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:12:9)
+                    at async LogingPage.clickLoginButton (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:28:4)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:9:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669740733653' status='broken' stop='1669740734679'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669740733654' status='passed' stop='1669740734678'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740734678' status='broken' stop='1669740734678'>
+                    <name>When User login with standard_user and secret_sauce</name>
+                    <title>When User login with standard_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740734679' status='broken' stop='1669740734679'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740734679' status='canceled' stop='1669740734679'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740734679' status='canceled' stop='1669740734679'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "User click on the login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "User click on the login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/demo/ecomerce.feature):1:1
+                	at Scenario(Validate the price):19:5
+                	at Step(User click on the login button):22:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669740734680' status='broken' stop='1669740735705'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669740734680' status='passed' stop='1669740735704'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740735704' status='broken' stop='1669740735705'>
+                    <name>When User login with problem_user and secret_sauce</name>
+                    <title>When User login with problem_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740735705' status='broken' stop='1669740735705'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740735705' status='canceled' stop='1669740735706'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740735707' status='canceled' stop='1669740735707'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "User click on the login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "User click on the login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/demo/ecomerce.feature):1:1
+                	at Scenario(Validate the price):19:5
+                	at Step(User click on the login button):22:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669740735707' status='broken' stop='1669740736746'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669740735708' status='passed' stop='1669740736745'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740736745' status='broken' stop='1669740736745'>
+                    <name>When User login with performance_glitch_user and secret_sauce</name>
+                    <title>When User login with performance_glitch_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740736746' status='broken' stop='1669740736746'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740736746' status='canceled' stop='1669740736746'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669740736746' status='canceled' stop='1669740736746'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Step "User click on the login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "User click on the login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/demo/ecomerce.feature):1:1
+                	at Scenario(Validate the price):19:5
+                	at Step(User click on the login button):22:9
+                </stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

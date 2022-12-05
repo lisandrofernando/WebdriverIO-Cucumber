@@ -1,0 +1,337 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669674248915' stop='1669674256709'>
+    <name>Swag Labs Ecomerce</name>
+    <title>Swag Labs Ecomerce</title>
+    <test-cases>
+        <test-case start='1669674248924' status='broken' stop='1669674250552'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669674248925' status='passed' stop='1669674250232'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674250232' status='broken' stop='1669674250552'>
+                    <name>When User login with standard_user and secret_sauce</name>
+                    <title>When User login with standard_user and secret_sauce</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d1988dd8-1472-4e97-909e-c319fee19ab5-attachment.png' type='image/png' size='175000'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669674250552' status='canceled' stop='1669674250552'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674250552' status='canceled' stop='1669674250552'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674250552' status='canceled' stop='1669674250552'>
+                    <name>Then Click the inventory Sauce Labs Backpack</name>
+                    <title>Then Click the inventory Sauce Labs Backpack</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Given username: secret_sauce is not valid</message>
+                <stack-trace>Error: Given username: secret_sauce is not valid
+                    at LogingPage.enterPassword (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:23:24)
+                    at LogingPage.loginToSauceApp (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:34:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:8:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669674250553' status='broken' stop='1669674251792'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669674250553' status='passed' stop='1669674251579'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674251579' status='broken' stop='1669674251792'>
+                    <name>When User login with problem_user and secret_sauce</name>
+                    <title>When User login with problem_user and secret_sauce</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='421b733f-1529-4ff5-a6c4-9d531851067c-attachment.png' type='image/png' size='174721'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669674251792' status='canceled' stop='1669674251792'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674251792' status='canceled' stop='1669674251793'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674251793' status='canceled' stop='1669674251793'>
+                    <name>Then Click the inventory Sauce Labs Bike Light</name>
+                    <title>Then Click the inventory Sauce Labs Bike Light</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Given username: secret_sauce is not valid</message>
+                <stack-trace>Error: Given username: secret_sauce is not valid
+                    at LogingPage.enterPassword (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:23:24)
+                    at LogingPage.loginToSauceApp (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:34:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:8:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669674251793' status='broken' stop='1669674253022'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669674251793' status='passed' stop='1669674252810'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674252810' status='broken' stop='1669674253022'>
+                    <name>When User login with performance_glitch_user and secret_sauce</name>
+                    <title>When User login with performance_glitch_user and secret_sauce</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0046cec3-959b-4194-a4e4-d497ca02f951-attachment.png' type='image/png' size='178768'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669674253022' status='canceled' stop='1669674253022'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674253022' status='canceled' stop='1669674253023'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674253023' status='canceled' stop='1669674253023'>
+                    <name>Then Click the inventory Sauce Labs Fleece Jacket</name>
+                    <title>Then Click the inventory Sauce Labs Fleece Jacket</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Given username: secret_sauce is not valid</message>
+                <stack-trace>Error: Given username: secret_sauce is not valid
+                    at LogingPage.enterPassword (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:23:24)
+                    at LogingPage.loginToSauceApp (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:34:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:8:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669674253023' status='broken' stop='1669674254254'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669674253023' status='passed' stop='1669674254050'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674254050' status='broken' stop='1669674254254'>
+                    <name>When User login with standard_user and secret_sauce</name>
+                    <title>When User login with standard_user and secret_sauce</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a1f08edd-d33e-4b8b-b95c-0546b7380eb1-attachment.png' type='image/png' size='175000'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669674254254' status='canceled' stop='1669674254254'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674254254' status='canceled' stop='1669674254254'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674254254' status='canceled' stop='1669674254254'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Given username: secret_sauce is not valid</message>
+                <stack-trace>Error: Given username: secret_sauce is not valid
+                    at LogingPage.enterPassword (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:23:24)
+                    at LogingPage.loginToSauceApp (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:34:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:8:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669674254255' status='broken' stop='1669674255470'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669674254255' status='passed' stop='1669674255269'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674255269' status='broken' stop='1669674255470'>
+                    <name>When User login with problem_user and secret_sauce</name>
+                    <title>When User login with problem_user and secret_sauce</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='be5c86e3-236c-48b2-88d8-e60bd95830d4-attachment.png' type='image/png' size='174721'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669674255470' status='canceled' stop='1669674255470'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674255470' status='canceled' stop='1669674255470'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674255470' status='canceled' stop='1669674255471'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Given username: secret_sauce is not valid</message>
+                <stack-trace>Error: Given username: secret_sauce is not valid
+                    at LogingPage.enterPassword (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:23:24)
+                    at LogingPage.loginToSauceApp (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:34:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:8:3)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669674255471' status='broken' stop='1669674256708'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669674255471' status='passed' stop='1669674256487'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674256487' status='broken' stop='1669674256708'>
+                    <name>When User login with performance_glitch_user and secret_sauce</name>
+                    <title>When User login with performance_glitch_user and secret_sauce</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='01e13b2b-22c0-4b76-9d5c-7dde8819710e-attachment.png' type='image/png' size='178768'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669674256708' status='canceled' stop='1669674256708'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674256708' status='canceled' stop='1669674256708'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669674256708' status='canceled' stop='1669674256708'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Given username: secret_sauce is not valid</message>
+                <stack-trace>Error: Given username: secret_sauce is not valid
+                    at LogingPage.enterPassword (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:23:24)
+                    at LogingPage.loginToSauceApp (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/loginPage.ts:34:16)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/When.ts:8:3)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

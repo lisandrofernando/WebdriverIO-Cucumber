@@ -1,3 +1,5 @@
+let headless = process.env.HEADLESS
+import fs from "fs"
 export const config: WebdriverIO.Config = {
     //
     // ====================
@@ -81,9 +83,23 @@ export const config: WebdriverIO.Config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
+        /**
+        * Additional chrome options:
+        * --headless
+        * --disable-dev-shm-usage
+        * --no-sandbox
+        * --window-size=1920,1080
+        * --disable-gpu
+        * --proxy-server=https://..
+        *binary=<location></location>
+        * --auth-server-whitelist="_"
+         */
         maxInstances: 5,
         //
         browserName: 'chrome',
+        "goog:chromeOptions":{
+                            args: headless.toLocaleUpperCase() === "Y" ? ["--headless", "--disable-dev-shm-usage", "--no-sandbox", "--window-size=1920,1080"] : []
+        },
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -166,6 +182,8 @@ export const config: WebdriverIO.Config = {
                  {
                      outputDir: 'results',
                      disableWebdriverScreenshotsReporting: false,
+                     disableWebdriverStepsReporting: true,
+                     useCucumberStepReporter: true
                  },
                 ],
 
@@ -220,8 +238,11 @@ export const config: WebdriverIO.Config = {
      * @param {Object} config wdio configuration object
      * @param {Array.<Object>} capabilities list of capabilities details
      */
-    // onPrepare: function (config, capabilities) {
-    // },
+    onPrepare: function (config, capabilities) {
+        if(process.env.RUNNER === "LOCAL" && fs.existsSync("./allure-results")){
+            fs.rmSync("./allure-results", {recursive: true})
+        }
+    },
     /**
      * Gets executed before a worker process is spawned and can be used to initialise specific service
      * for that worker as well as modify runtime environments in an async fashion.

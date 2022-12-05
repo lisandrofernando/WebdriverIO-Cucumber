@@ -1,0 +1,331 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669673595865' stop='1669673596639'>
+    <name>Swag Labs Ecomerce</name>
+    <title>Swag Labs Ecomerce</title>
+    <test-cases>
+        <test-case start='1669673595876' status='broken' stop='1669673596041'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669673595878' status='broken' stop='1669673596041'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f1bbe14f-2aa5-4ea2-9ce8-36780aaefc93-attachment.png' type='image/png' size='15714'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669673596041' status='canceled' stop='1669673596042'>
+                    <name>When User login with standard_user and secret_sauce</name>
+                    <title>When User login with standard_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596042' status='canceled' stop='1669673596042'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596042' status='canceled' stop='1669673596042'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596042' status='canceled' stop='1669673596042'>
+                    <name>Then Click the inventory Sauce Labs Backpack</name>
+                    <title>Then Click the inventory Sauce Labs Backpack</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LogingPage.navigateTo (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:11:9)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/Given.ts:9:4)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669673596043' status='broken' stop='1669673596176'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669673596044' status='broken' stop='1669673596176'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ae23984c-dff6-47d1-997c-c319cdeb97da-attachment.png' type='image/png' size='15714'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669673596176' status='canceled' stop='1669673596176'>
+                    <name>When User login with problem_user and secret_sauce</name>
+                    <title>When User login with problem_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596176' status='canceled' stop='1669673596176'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596176' status='canceled' stop='1669673596176'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596176' status='canceled' stop='1669673596176'>
+                    <name>Then Click the inventory Sauce Labs Bike Light</name>
+                    <title>Then Click the inventory Sauce Labs Bike Light</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LogingPage.navigateTo (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:11:9)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/Given.ts:9:4)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669673596177' status='broken' stop='1669673596296'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669673596177' status='broken' stop='1669673596296'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='36fb0afe-972d-4bee-a7aa-a91c1d02bd05-attachment.png' type='image/png' size='15714'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669673596296' status='canceled' stop='1669673596296'>
+                    <name>When User login with performance_glitch_user and secret_sauce</name>
+                    <title>When User login with performance_glitch_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596296' status='canceled' stop='1669673596296'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596296' status='canceled' stop='1669673596296'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596296' status='canceled' stop='1669673596296'>
+                    <name>Then Click the inventory Sauce Labs Fleece Jacket</name>
+                    <title>Then Click the inventory Sauce Labs Fleece Jacket</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LogingPage.navigateTo (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:11:9)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/Given.ts:9:4)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669673596296' status='broken' stop='1669673596407'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669673596296' status='broken' stop='1669673596407'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ebfbd3b2-2460-463b-a278-67467667ffab-attachment.png' type='image/png' size='15714'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669673596407' status='canceled' stop='1669673596407'>
+                    <name>When User login with standard_user and secret_sauce</name>
+                    <title>When User login with standard_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596407' status='canceled' stop='1669673596407'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596407' status='canceled' stop='1669673596407'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596407' status='canceled' stop='1669673596407'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LogingPage.navigateTo (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:11:9)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/Given.ts:9:4)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669673596407' status='broken' stop='1669673596526'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669673596407' status='broken' stop='1669673596526'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6e3fc34a-ea2a-4b7f-b9f4-64cadb43eecd-attachment.png' type='image/png' size='15714'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669673596526' status='canceled' stop='1669673596526'>
+                    <name>When User login with problem_user and secret_sauce</name>
+                    <title>When User login with problem_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596526' status='canceled' stop='1669673596526'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596526' status='canceled' stop='1669673596526'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596526' status='canceled' stop='1669673596526'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LogingPage.navigateTo (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:11:9)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/Given.ts:9:4)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669673596526' status='broken' stop='1669673596638'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669673596526' status='broken' stop='1669673596638'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='74176602-247a-44e1-826e-56a52e095bb2-attachment.png' type='image/png' size='15714'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669673596638' status='canceled' stop='1669673596638'>
+                    <name>When User login with performance_glitch_user and secret_sauce</name>
+                    <title>When User login with performance_glitch_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596638' status='canceled' stop='1669673596638'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596638' status='canceled' stop='1669673596638'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669673596638' status='canceled' stop='1669673596638'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Parameter for "url" command needs to be type of string</message>
+                <stack-trace>Error: Parameter for "url" command needs to be type of string
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async LogingPage.navigateTo (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/page-objects/page.ts:11:9)
+                    at async World.&lt;anonymous> (/Users/lisandrodossantossilvafernando/Desktop/WebDriverIO/test/features/step-definitions/Given.ts:9:4)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
