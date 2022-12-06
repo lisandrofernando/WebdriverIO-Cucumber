@@ -1,1 +1,1 @@
-To run this repo run: npm run wdio
+To run this repo run: npm run test:wdio
