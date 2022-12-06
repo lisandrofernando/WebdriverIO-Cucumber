@@ -36,11 +36,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lisandrofernando/WebdriverIO-Cucumber.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lisandrofernando/WebdriverIO-Cucumber/issues"
-  },
-  "homepage": "https://github.com/lisandrofernando/WebdriverIO-Cucumber#readme"
+  }
 }
