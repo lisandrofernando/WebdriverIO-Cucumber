@@ -25,6 +25,7 @@
   "dependencies": {
     "allure-commandline": "^2.18.1",
     "dotenv": "^16.0.3",
+    "package.json": "^2.0.1",
     "socket.io": "^4.5.4"
   },
   "description": "To run this repo run: npm run wdio",
