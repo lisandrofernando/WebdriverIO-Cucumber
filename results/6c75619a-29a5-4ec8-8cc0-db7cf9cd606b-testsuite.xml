@@ -1,0 +1,277 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670881390047' stop='1670881426564'>
+    <name>Swag Labs Ecomerce</name>
+    <title>Swag Labs Ecomerce</title>
+    <test-cases>
+        <test-case start='1670881390055' status='passed' stop='1670881394970'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.98'/>
+            </parameters>
+            <steps>
+                <step start='1670881390057' status='passed' stop='1670881391556'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881391556' status='passed' stop='1670881392813'>
+                    <name>When User login with standard_user and secret_sauce</name>
+                    <title>When User login with standard_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881392814' status='passed' stop='1670881393898'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881393898' status='passed' stop='1670881394920'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881394921' status='passed' stop='1670881394969'>
+                    <name>Then Click the inventory Sauce Labs Backpack</name>
+                    <title>Then Click the inventory Sauce Labs Backpack</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670881394970' status='passed' stop='1670881399281'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.98'/>
+            </parameters>
+            <steps>
+                <step start='1670881394970' status='passed' stop='1670881396005'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881396006' status='passed' stop='1670881397149'>
+                    <name>When User login with problem_user and secret_sauce</name>
+                    <title>When User login with problem_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881397149' status='passed' stop='1670881398207'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881398208' status='passed' stop='1670881399236'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881399237' status='passed' stop='1670881399280'>
+                    <name>Then Click the inventory Sauce Labs Bike Light</name>
+                    <title>Then Click the inventory Sauce Labs Bike Light</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670881399281' status='passed' stop='1670881408573'>
+            <name>Login to the app</name>
+            <title>Login to the app</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.98'/>
+            </parameters>
+            <steps>
+                <step start='1670881399282' status='passed' stop='1670881400311'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881400311' status='passed' stop='1670881401451'>
+                    <name>When User login with performance_glitch_user and secret_sauce</name>
+                    <title>When User login with performance_glitch_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881401451' status='passed' stop='1670881407510'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881407510' status='passed' stop='1670881408528'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881408528' status='passed' stop='1670881408572'>
+                    <name>Then Click the inventory Sauce Labs Fleece Jacket</name>
+                    <title>Then Click the inventory Sauce Labs Fleece Jacket</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670881408573' status='passed' stop='1670881412920'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.98'/>
+            </parameters>
+            <steps>
+                <step start='1670881408573' status='passed' stop='1670881409605'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881409606' status='passed' stop='1670881410749'>
+                    <name>When User login with standard_user and secret_sauce</name>
+                    <title>When User login with standard_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881410749' status='passed' stop='1670881411807'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881411807' status='passed' stop='1670881412831'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881412831' status='passed' stop='1670881412919'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670881412920' status='passed' stop='1670881417281'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.98'/>
+            </parameters>
+            <steps>
+                <step start='1670881412921' status='passed' stop='1670881413969'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881413969' status='passed' stop='1670881415114'>
+                    <name>When User login with problem_user and secret_sauce</name>
+                    <title>When User login with problem_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881415114' status='passed' stop='1670881416174'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881416174' status='passed' stop='1670881417202'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881417202' status='passed' stop='1670881417281'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1670881417281' status='passed' stop='1670881426564'>
+            <name>Validate the price</name>
+            <title>Validate the price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.98'/>
+            </parameters>
+            <steps>
+                <step start='1670881417282' status='passed' stop='1670881418303'>
+                    <name>Given Swag Labs url is open</name>
+                    <title>Given Swag Labs url is open</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881418303' status='passed' stop='1670881419443'>
+                    <name>When User login with performance_glitch_user and secret_sauce</name>
+                    <title>When User login with performance_glitch_user and secret_sauce</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881419443' status='passed' stop='1670881425507'>
+                    <name>Then User click on the login button</name>
+                    <title>Then User click on the login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881425507' status='passed' stop='1670881426520'>
+                    <name>Then The header title should match PRODUCTS</name>
+                    <title>Then The header title should match PRODUCTS</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1670881426520' status='passed' stop='1670881426564'>
+                    <name>Then Validate all products have a valid price</name>
+                    <title>Then Validate all products have a valid price</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

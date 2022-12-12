@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Swag Labs Ecomerce" timestamp="2022-12-05T15:48:52" time="36.52" tests="6" failures="0" errors="0" skipped="0">
+  <testsuite name="Swag Labs Ecomerce" timestamp="2022-12-12T15:43:10" time="36.527" tests="6" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="featureName" value="Swag Labs Ecomerce"/>
-      <property name="capabilities" value="chrome.108_0_5359_94.macosx"/>
+      <property name="capabilities" value="chrome.108_0_5359_98.macosx"/>
       <property name="featureFile" value="./test/features/demo/ecomerce.feature"/>
     </properties>
-    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_94.macosx.Swag Labs Ecomerce" name="Login to the app" time="4.927">
+    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_98.macosx.Swag Labs Ecomerce" name="Login to the app" time="4.915">
       <system-out><![CDATA[
 ✅ Given Swag Labs url is open✅ When User login with standard_user and secret_sauce✅ Then User click on the login button✅ Then The header title should match PRODUCTS✅ Then Click the inventory Sauce Labs Backpack
 ]]></system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_94.macosx.Swag Labs Ecomerce" name="Login to the app" time="4.266">
+    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_98.macosx.Swag Labs Ecomerce" name="Login to the app" time="4.311">
       <system-out><![CDATA[
 ✅ Given Swag Labs url is open✅ When User login with problem_user and secret_sauce✅ Then User click on the login button✅ Then The header title should match PRODUCTS✅ Then Click the inventory Sauce Labs Bike Light
 ]]></system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_94.macosx.Swag Labs Ecomerce" name="Login to the app" time="9.305">
+    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_98.macosx.Swag Labs Ecomerce" name="Login to the app" time="9.292">
       <system-out><![CDATA[
 ✅ Given Swag Labs url is open✅ When User login with performance_glitch_user and secret_sauce✅ Then User click on the login button✅ Then The header title should match PRODUCTS✅ Then Click the inventory Sauce Labs Fleece Jacket
 ]]></system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_94.macosx.Swag Labs Ecomerce" name="Validate the price" time="4.315">
+    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_98.macosx.Swag Labs Ecomerce" name="Validate the price" time="4.347">
       <system-out><![CDATA[
 ✅ Given Swag Labs url is open✅ When User login with standard_user and secret_sauce✅ Then User click on the login button✅ Then The header title should match PRODUCTS✅ Then Validate all products have a valid price
 ]]></system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_94.macosx.Swag Labs Ecomerce" name="Validate the price" time="4.307">
+    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_98.macosx.Swag Labs Ecomerce" name="Validate the price" time="4.361">
       <system-out><![CDATA[
 ✅ Given Swag Labs url is open✅ When User login with problem_user and secret_sauce✅ Then User click on the login button✅ Then The header title should match PRODUCTS✅ Then Validate all products have a valid price
 ]]></system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_94.macosx.Swag Labs Ecomerce" name="Validate the price" time="9.383">
+    <testcase classname="CucumberJUnitReport-chrome.108_0_5359_98.macosx.Swag Labs Ecomerce" name="Validate the price" time="9.283">
       <system-out><![CDATA[
 ✅ Given Swag Labs url is open✅ When User login with performance_glitch_user and secret_sauce✅ Then User click on the login button✅ Then The header title should match PRODUCTS✅ Then Validate all products have a valid price
 ]]></system-out>
