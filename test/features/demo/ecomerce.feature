@@ -14,7 +14,6 @@ Feature: Swag Labs Ecomerce
             | problem_user            | secret_sauce | PRODUCTS | Sauce Labs Bike Light    |
             | performance_glitch_user | secret_sauce | PRODUCTS | Sauce Labs Fleece Jacket |
 
-
     @commerce
     Scenario: Validate the price
         Given Swag Labs url is open
